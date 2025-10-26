@@ -1,2 +1,89 @@
 # lsColors
 Changes the color of a file type using the 'ls' command for fast and easy identification.
+
+<br>
+
+# Installation 
+```bash
+git clone https://github.com/ghostescript/lsColors
+cd lsColors
+python set_ls_color.py
+```
+
+<br>
+
+* Copy, rename and move the script to home directory or any path of your choice for easy configuration.
+
+<br>
+
+```bash
+# cd lsColors
+cp set_ls_color.py set-lsColors.py
+mv set-lsColors.py /home/kali/
+mv /home/kali/set-lsColors.py /home/kali/set_ls_color.py
+```
+
+<br>
+
+# Quick Usage
+![alt text]()
+
+<br>
+
+# Examples
+
+<br>
+
+* Show the help message and exit.
+```bash
+python set_ls_color.py
+```
+
+<br>
+
+* List available file types, colors, and attributes.
+```bash
+python set_ls_color.py -l
+```
+
+<br>
+
+ * List all 256 color codes.
+```bash
+python set_ls_color.py list-colors
+```
+
+<br>
+
+* Change your directories to color 178 (orange)
+```bash
+python set_ls_color.py DIR 256 178 bold
+```
+
+<br>
+
+* Change .txt files magenta in color.
+```bash
+python set_ls_color.py .txt magenta normal
+```
+
+<br>
+
+* Change .py scripts cyan in color.
+```bash
+python set_ls_color.py .py cyan bold
+```
+
+<br>
+
+# Execute Changes
+
+```bash
+eval "$(dircolors -b .dir_colors)"
+```
+<br>
+
+# Updated On
+``Oct 25, 2025``
+
+<br>
