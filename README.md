@@ -26,7 +26,7 @@ mv /home/kali/set-lsColors.py /home/kali/set_ls_color.py
 <br>
 
 # Quick Usage
-![alt text]()
+![alt text](https://raw.githubusercontent.com/ghostescript/lsColors/refs/heads/main/files/Screenshot_20251025-211453_Termux.jpg)
 
 <br>
 
