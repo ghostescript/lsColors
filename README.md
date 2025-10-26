@@ -81,6 +81,11 @@ python set_ls_color.py .py cyan bold
 ```bash
 eval "$(dircolors -b .dir_colors)"
 ```
+
+<br>
+
+> ⚠️ NOTE: This command will execute the ``.dir_colors`` file, your current and last saved configuration. When logging out of a session colors reset by default and you will need to execute the command again by itself to view your saved configuration.
+
 <br>
 
 # Updated On
