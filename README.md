@@ -25,6 +25,14 @@ mv /home/kali/set-lsColors.py /home/kali/set_ls_color.py
 
 <br>
 
+* Termux, Basic Setup
+```bash
+# cd lsColors
+cp set_ls_color.py set-lsColors.py && mv set-lsColors.py ~/ && mv ~/set-lsColors.py ~/set_ls_color.py
+```
+
+<br>
+
 # Quick Usage
 ![alt text](https://raw.githubusercontent.com/ghostescript/lsColors/refs/heads/main/files/Screenshot_20251025-211453_Termux.jpg)
 
@@ -85,6 +93,27 @@ eval "$(dircolors -b .dir_colors)"
 <br>
 
 > ⚠️ NOTE: This command will execute the ``.dir_colors`` file, your current and last saved configuration. When logging out of a session colors reset by default and you will need to execute the command again by itself to view your saved configuration.
+
+<br>
+
+# Set Bash Script
+* Set up the pre-configured bash script (colors.sh) to activate your colors anytime with ``./colors`` (Use The Same Directory As ``.dir_colors``)
+
+<br>
+
+```bash
+cp ~/lsColors/colors.sh colors 
+mv ~/lsColors/colors ~/
+chmod +x colors ; ./colors
+```
+
+<br>
+
+> Set your saved configuration 
+
+```bash
+./colors
+```
 
 <br>
 
