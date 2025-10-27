@@ -104,15 +104,21 @@ eval "$(dircolors -b .dir_colors)"
 ```bash
 cp ~/lsColors/colors.sh colors 
 mv ~/lsColors/colors ~/
-chmod +x colors ; ./colors
+chmod +x ~/colors ; ~/./colors
 ```
 
 <br>
 
-> Set your saved configuration 
+> Set your saved colors configuration easily with any one of the usual methods once you log in to a new session.
 
 ```bash
 ./colors
+```
+```bash
+sh colors
+```
+```bash
+bash colors
 ```
 
 <br>
