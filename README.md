@@ -16,6 +16,7 @@ python set_ls_color.py
 
 <br>
 
+* Kali Linux Basic Setup 
 ```bash
 # cd lsColors
 cp set_ls_color.py set-lsColors.py
