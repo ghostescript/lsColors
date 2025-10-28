@@ -18,6 +18,4 @@ shopt -s expand_aliases
 # Define the alias
 alias ll="ls -la"
 
-# Use the alias within the script
-echo "Listing current directory with 'll':"
-ll
+
