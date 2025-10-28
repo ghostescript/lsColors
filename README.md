@@ -125,11 +125,11 @@ bash colors
 <br>
 
 # Dependencies 
-> If you see the error: ``./colors: line 6: dircolors: command not found`` you need to install the package: ``coreutils`` according to your distro.
+* If you see the error: ``./colors: line 6: dircolors: command not found`` you need to install the package: ``coreutils`` according to your distro.
 
 <br>
 
 # Updated On
-``Oct 27, 2025``
+``Oct 28, 2025``
 
 <br>
