@@ -12,10 +12,6 @@ fi
 # Now, any subsequent `ls` commands in this script will use the new color scheme.
 ls --color=auto
 
-# Enable alias expansion within the script (important for aliases to work within scripts)
-shopt -s expand_aliases
 
-# Define the alias
-alias ll="ls -la"
 
 
